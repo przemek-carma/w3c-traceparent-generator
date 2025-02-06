@@ -1,0 +1,6 @@
+type: "middleware"
+import: "github.com/przemek-carma/w3c-traceparent-generator"
+displayName: "W3C Traceparent Header Generator Plugin"
+summary: "Generate a random W3C Traceparent header"
+testData:
+  HeaderName: "traceparent"
