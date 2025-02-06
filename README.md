@@ -2,3 +2,4 @@
 
 * Will generate a random traceparent header if it is not already found in the request.
 * Based on https://github.com/barmaths/w3c-tracecontext-creator
+* Replaces math/rand with crypto/rand for better handling of concurrency
